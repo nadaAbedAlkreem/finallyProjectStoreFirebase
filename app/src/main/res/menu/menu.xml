@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navAddCategory"
+        android:icon="@drawable/add_card"
+        android:title="@string/show_category" />
+    <item
+        android:id="@+id/navAddProduct"
+        android:icon="@drawable/add_card"
+        android:title="@string/show_product" />
+    <item
+        android:id="@+id/navReview"
+        android:icon="@drawable/rate_review"
+        android:title="@string/reviews" />
+
+</menu>

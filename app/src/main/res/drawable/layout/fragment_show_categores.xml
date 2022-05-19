@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="324dp"
+        android:layout_height="403dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902"
+        tools:ignore="MissingConstraints">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerItem"
+            android:layout_width="336dp"
+            android:layout_height="384dp"
+
+
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="310dp"
+        android:layout_height="36dp"
+        android:background="@drawable/catagorylibrary"
+        android:hint="Search..."
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ImageView
+        android:id="@+id/searchIcon"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:src="@drawable/ic_baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="@+id/search"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="@+id/search"
+        app:layout_constraintTop_toTopOf="@+id/search" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="336dp"
+        android:layout_height="112dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/backgroud"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addCatgorybtn"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_button_background"
+        android:text="Add Category"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/refresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

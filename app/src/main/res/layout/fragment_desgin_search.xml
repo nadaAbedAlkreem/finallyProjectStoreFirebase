@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FBE6DF"
+        android:elevation="9dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_search"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/t" />
+
+        <TextView
+            android:id="@+id/nameSearch"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:text="@string/product_name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/show_Details"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/add"
+            android:text="@string/show_details"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/refresh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

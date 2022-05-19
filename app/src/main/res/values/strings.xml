@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">StoreProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="update">Update</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="add_image">Add Image</string>
+
+    <string name="product_price">Product price</string>
+
+    <string name="add_product">Add Product</string>
+
+    <string name="product_image">Product Image</string>
+
+    <string name="category_image">Category Image</string>
+
+    <string name="category_name">Category Name</string>
+
+    <string name="category">Category</string>
+
+    <string name="description">Description</string>
+
+    <string name="update_product">Update Product</string>
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+
+
+    <string name="reviews">Reviews</string>
+
+    <string name="product_nam">Product Name:</string>
+
+    <string name="product_rate">Product Rate:</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="my_cart">My Cart</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search…</string>
+    <string name="product_name">Product Name</string>
+    <string name="show_category">Show Category</string>
+    <string name="show_product">Show Product</string>
+    <string name="add_category">Add Category</string>
+    <string name="image_view">image view</string>
+    <string name="rating">Rating</string>
+    <string name="update_category">Update Category</string>
+    <string name="name_category">Name Category</string>
+    <string name="_500">500</string>
+    <string name="_0">0</string>
+    <string name="show_details">Show Details</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="log_in">LOG IN</string>
+    <string name="enter_your_password">Enter Your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="if_you_have_not_account">If you have not account?</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_birth">Enter Your Birth</string>
+    <string name="if_you_have_already_account">If you have Already Account?</string>
+
+
+</resources>

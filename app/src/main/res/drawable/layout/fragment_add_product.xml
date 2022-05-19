@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="40dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp">
+
+        <ImageView
+            android:id="@+id/addImg"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/add_image"
+            android:src="@drawable/addimage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button"
+            android:ems="10"
+            android:hint="@string/product_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text=""
+            android:textColor="#ad9b82"
+            android:textColorHint="#ad9b82"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addImg"
+            tools:ignore="RtlSymmetry,TextContrastCheck"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/product_price"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text=""
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtName"
+            android:background="@drawable/button"
+            android:textColor="#ad9b82"
+            android:textColorHint="#ad9b82"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="443dp"
+            android:autofillHints="" />
+
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:lines="7"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text=""
+            android:textColor="#ad9b82"
+            android:textColorHint="#ad9b82"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtprice"
+            tools:ignore="RtlSymmetry,TextContrastCheck,TouchTargetSizeCheck"
+            android:autofillHints="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/add"
+            android:text="@string/add_product"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtDescription"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
