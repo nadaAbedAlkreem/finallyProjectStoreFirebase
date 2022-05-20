@@ -89,7 +89,7 @@ class UpdateProductActivity : AppCompatActivity() {
         val name = binding.edtName.text.toString().trim()
         // val category = binding.edtCategory.text.toString().trim()
         val description = binding.edtDescription.text.toString().trim()
-        val price = binding.edtprice.text.toString().toInt()
+        val price = binding.edtprice.text.toString().toDouble()
 
         val data = hashMapOf(
             "name" to name,
